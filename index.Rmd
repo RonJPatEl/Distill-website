@@ -6,13 +6,13 @@ site: distill::distill_website
 image: "Pasfoto.png"
 links:
   - label: LinkedIn
-    url: "https://linkedin.com/"
+    url: "https://www.linkedin.com/in/ron-pat-el-010b532a/"
   - label: Twitter
     url: "https://twitter.com/RonJPatEl"
   - label: GitHub
-    url: "https://github.com/"
-  - label: Email
-    url: "mailto:email@email.com"
+    url: "https://github.com/RonJPatEl"
+  - label: ResearchGate
+    url: "https://www.researchgate.net/profile/Ron-Pat-El"
 output:
   postcards::jolla
 ---
