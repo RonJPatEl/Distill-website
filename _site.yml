@@ -1,0 +1,16 @@
+name: "DistillWebsite"
+title: "Ron Pat-El Personal Website"
+description: |
+  Ron Pat-El Personal Website
+output_dir: "_site"
+navbar:
+  right:
+    - text: "Home"
+      href: index.html
+    - text: "About"
+      href: about.html
+    - text: "Publications"
+      href: publications.html
+    - icon: fab fa-github
+      href: https://github.com/RonJPatEl
+output: distill::distill_article

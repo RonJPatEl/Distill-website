@@ -1,0 +1,32 @@
+---
+title: "Dr. Ron Pat-El"
+description: |
+  Assistant Professor Methods and Statistics
+site: distill::distill_website
+image: "Pasfoto.png"
+links:
+  - label: LinkedIn
+    url: "https://linkedin.com/"
+  - label: Twitter
+    url: "https://twitter.com/RonJPatEl"
+  - label: GitHub
+    url: "https://github.com/"
+  - label: Email
+    url: "mailto:email@email.com"
+output:
+  postcards::jolla
+---
+ 
+I am an assistant professor in methods and statistics at the Open University of the Netherlands.
+My research focuses on psychometrics, agent-based models and student motivation in the context of assessment for learning and statistical education.
+
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE)
+
+# Learn more about creating websites with Distill at:
+# https://rstudio.github.io/distill/website.html
+# https://themockup.blog/posts/2020-08-01-building-a-blog-with-distill/
+# https://aosmith16.github.io/spring-r-topics/slides/week02_distill_websites.html#10
+```
+
