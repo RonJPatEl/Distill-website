@@ -5,28 +5,49 @@ description: |
 site: distill::distill_website
 image: "Pasfoto.png"
 links:
-  - label: LinkedIn
+  - label: '`r fontawesome::fa("linkedin", fill = "currentColor")`'
     url: "https://www.linkedin.com/in/ron-pat-el-010b532a/"
-  - label: Twitter
+  - label: '`r fontawesome::fa("twitter", fill = "currentColor")`'
     url: "https://twitter.com/RonJPatEl"
-  - label: GitHub
+  - label: '`r fontawesome::fa("github", fill = "currentColor")`'
     url: "https://github.com/RonJPatEl"
-  - label: ResearchGate
+  - label: '`r fontawesome::fa("researchgate", fill = "currentColor")`'
     url: "https://www.researchgate.net/profile/Ron-Pat-El"
+  - label: 'CV'
+    url: "https://ronjpatel.github.io/"
 output:
   postcards::jolla
 ---
- 
+
+
 I am an assistant professor in methods and statistics at the Open University of the Netherlands.
 My research focuses on psychometrics, agent-based models and student motivation in the context of assessment for learning and statistical education.
 
+<style>
+.h-index {
+  background-color: white;
+  color: #0F2E3D;
+  padding: 10px 20px;
+  text-decoration: none;
+  cursor: pointer;
+  border-style: solid;
+  border-color: #0F2E3D;;
+  border-radius: 5px;
+}
+</style>
+
+<a target="_blank" href="https://scholar.google.com/citations?user=sAAmFv8AAAAJ&hl=en">
+<button class="h-index">h-index: `r scholar::get_profile('sAAmFv8AAAAJ&hl')$h_index`</button>
+  </a>
 
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(echo = FALSE)
 
 # Learn more about creating websites with Distill at:
+# https://fontawesome.com/v4/icons/
 # https://rstudio.github.io/distill/website.html
 # https://themockup.blog/posts/2020-08-01-building-a-blog-with-distill/
 # https://aosmith16.github.io/spring-r-topics/slides/week02_distill_websites.html#10
+# https://rstudio.github.io/fontawesome/
 ```
 
