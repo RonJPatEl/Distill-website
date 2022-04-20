@@ -1,0 +1,97 @@
+---
+title: "How to manage your email productively as an academic"
+description: |
+ A collection of tips and tricks I have built up over the years to keep my inbox clean and to find balance between keeping up with email, teaching, research and other responsibilities.
+author:
+  - name: dr. Ron Pat-El
+    url: https://ronjpatel.github.io/
+    affiliation: Open Universiteit
+    affiliation_url: https://ou.nl
+    orcid_id: 0000-0002-4742-0163
+date: "`r Sys.Date()`"
+output: distill::distill_article
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE)
+```
+
+
+## The futility of inbox zero (but try anyway)
+
+The one thing that frustrated me in my journey to become more productive was the common advice of striving for *inbox zero*. Inbox zero refers to the goal of having zero emails left in your inbox at the end of the day. I don't know if there is any email-heavy job where inbox zero is possible, but academia certainly isn't it. There certainly are days were I have managed to reach a zero or nigh zero inbox. But it only remains zero for a fleeting moment before replies to emails, new questions and assignments from students, or requests by colleagues start pouring in. At the end of the day my inbox was never zero and the very short time I got to enjoy the rush of reaching inbox zero become little more than a distant memory.
+
+It felt like failing daily, and constantly, and believing that inbox zero was something I should strive for crushed my motivation. I would be able to keep up for about a week before demands outside of the mailbox, such as teaching, or research would force me to deprioritise the inbox. In no time my inbox was an unstructured mess with many emails going unanswered or answered far too late. This would fuel a sense of embarassment, and force me to prioritise e-mail over other responsibilities again. My insistence on trying inbox zero as a strategy would end up having me taking turns in catching up with stuff I should have done but neglected. 
+
+But, emails need to be answered, and emails that require action need to be addressed. So I knew I had to find some way to make inbox zero, i.e. getting all things that need to get done actually done, work. In this article I would like to share the things that finally seem to have made me manage my email productively in a way that made me a more productive teacher and academic.
+
+
+## The three most important folders and the 'touch it once principle'
+
+One piece of advice that seems constant whenever you search for improving your email productivity is to only keep two folders: an inbox and an 'action required' folder. If you work in a University these two folders will not make you more productive. It took me some experimenting, but ultimately I found my sweet spot by moving e-mail that I don't answer or delete directly into three folders:
+
+- course questions
+- to grade
+- action required
+
+With these three folders (in addition to my inbox) it became possible for me to follow what many productivity systems call the *touch it once rule*. The rule is that when you go through your inbox you decide right away what you are going to do with each email you click on. Whenever you touch an email you make a decision right away to either answer or delete it (see the two-minute rule below), or to move it to one of the folders for followup and to clean it from the inbox. By going through your inbox and immediately deciding on the type of action required it becomes possible to at least reach inbox zero on the main inbox. In fact, reaching inbox zero becomes an almost trivial task if you persist with the *touch it once rule* in the first two or three days that you start with it, depending on how apocalyptic your inbox is at the moment. I'll explain what my three folders are and how they help me.
+
+Whenever students mail me questions about one the courses I'm teaching I move them to the folder labeled **course questions**. At first I left these questions in my inbox, because my thought-process was that these questions should be handled ASAP and don't take much time anyway. I was wrong. Completely wrong. Answering questions from students is important, but also a complete and utter time-sink. The result was that my inbox kept growing, and when it reached critical mass, usually at around 15 unanswered emails, I would forgo my touch it once rule entirely again. It took me a while to realise that even simple questions take more than two minutes to answer, and so I should regard answering all but the simplest of questions as a task I need to schedule.
+
+Your experience may deviate from mine here. I work at the Open Universiteit, which means that courses are very flexible and students hand in assignments and will ask questions throughout the year. Whenever courses that I am coordinator are active in a semester I will have much more communication with my students, but generally I get emails from students all year round. If you only teach sporadically and students reach out to TA's instead of you than maybe you won't get a lot of mileage out of a **course questions** folder, but for me this folder is key to partition of all students questions as a clustered activity that I need to do, without it visually interfering with other tasks that find their way into my inbox.
+
+Assignments and papers that I need to grade or provide feedback on go into my **to grade** folder. Before moving it to this folder I use Microsoft Outlook's 'quick step' function to reply to the student that I've received the assignment and when they can expect feedback or a grade, and to send the task to my **to grade**-Trello Board where I can use due dates combined with calender view to plan the grading and feedback.
+
+
+
+## The two minute rule
+
+The two-minute rule is a well-known rule that can be summarized as "if you can do in in two minutes, do it immediately, otherwise schedule it for later". This is good advice. The problem is being honest with yourself when deciding whether something is a two-minutes or less task.
+
+I've struggled with this because of my impulsive nature. Whenever I see something that seems like a two-minute thing more often than not it turned out to be a ten-minute or more thing. What I discovered is that if an e-mail can be solved simply be replying to it, this leads me to classify it as a two-minute task. The problem is that not all e-mail is created equally.
+
+Students with questions about course content might have questions that seem easy enough to answer. So I start answering it. But, then it turns out I need to open the learning management system (LMS) to check the text of the course content, or assignment. Just logging into the LMS and load up the course can take a minute or two. When I finally have a good overview of the problem I need to answer the student, but the student needs guidance. So I open the required reading and find where the student can further learn about the answer to their question. The simple two-minute question turned out to be a five to ten minute question, which puts me behind schedule. Two or three such misclassifications might cause me to be left with an unordered inbox that needs to be done after I have completed other priorities such as meetings or important tasks that need to be done by that time.
+
+It is worthwhile to time yourself, or to reflect regularly on whether your two-minute taks are actually two-minute tasks. For me, the only things I can reliably call two-minute tasks are:
+
+- Deleting 'spam'-emails: newsletters, google-scholar notifications, mails to the team that don't require any action from me. These things can be deleted by simply pushing the delete button. Very cathartic;
+- Very basic questions, such as questions regarding deadlines (if I know them by heart), or any question basically that can be answered in two or three sentences at most and of which the answer is known to me by heart. If it requires looking something up its not a two minute or less task;
+- Requests that require little more than answering 'yes/no'; 
+- Requests that require little more than searching for a file and sending it as an attachment;
+- filling out a short form, or scheduling request.
+
+My experience is that anything more complex than the above is at high risk of requiring more than two-minutes, which risks breaking the flow of cleaning the inbox. I have made it a habit to avoid these risks entirely, unless the e-mail in question is of extremely high importance and urgency. Even then I tend to come to regret it. For me, clearing the inbox is a very important part of being productive, because I'm easily distracted. I simple *need* to prioritise a good overview of my tasks, and I need to seperate things that I should just do and things that should be done in an appropiate time. Student questions go into the 'course questions' folder unless the questions is superbasic. I don't even look for details: if the question is of a type that I immediately recognize as basic, it is a two-minute task. Everything else goes into the 'course questions' folder unread. The same goes for other tasks: if it requires more of me than the simplests of replies: into the 'action required' folder it goes.
+
+If I adhere to my rules: do minor tasks that can be done in two minutes or less, delete e-mails that don't demand an action from me, or move the e-mail to the appropiate folder, then inbox zero is almost garantueed within 10 minutes to 15 minutes. 
+
+## Change the default startup inbox-folder
+
+A little known Microsoft Outloook tip: change the default startup inbox-folder. I have mentioned a few times that I am easily distracted and my kryptonite is opening my e-mail and seeing new, unread email in the inbox folder. I don't know why, but I simply can't stop myself going through these emails, reading them, replying to them. Before I know it, I am almost an hour into my workday being faux-productive. Simply changing my default startup folder from 'inbox' to 'action required' puts me right where I need to be to keep my priorities straight.
+
+Having 'action required' as my default startup folder helps me identify tasks that I did not get to earlier, and to either pick them up now (if they turn out to be two-minute tasks anyway), or to schedule them for after I have sorted the new e-mail in the inbox folder. After reviewing all emails in the 'action required folder', which might take 1 or 2 minutes, I move to the inbox folder to start the sorting process.
+
+To change the default folder.... [WIP]
+
+
+## Work offline mode
+
+You might have been given the same advice as I have been given numerous times: simply close your email between [insert begin and end time here]. It might be good advice for some, but my problem is that closing my email might shield me from email, but it simultaneously prevents me from doing much of my work. I work from my email-client. If I have papers to grade, they need to be accessed through the client. Forms need to be sent, appointments needs scheduling, forms need to be found, etc. There are surprisingly many things that require me to open my email. And as soon as I open the email-client, the inbox starts flooding No fun. No fun at all. And distracting to boot.
+
+But, it turns out there is a magic button. The 'work offline' button in the Microsoft Outlook desktop client. I don't know about other email clients, but if they have a work offline button find it and treasure it. If you click the work offline button you can have your cake and eat it too: you can keep the email-client open and work from your mailbox, but you won't receive new email in the meantime.
+
+The great upsides to this are manyfold. (1) Whenever you reach inbox zero it is extremely satisfying to see it stay that way; (2) your inbox won't flood with replies to your emails as you are trying to declutter the inbox; (3) by not receiving new emails you become better able to protect your schedule; it is easier to limit your emailing to whatever your limit was. 
+
+It helped me to decide that any email that are in my inbox when I start working is the email that I will pickup that day up until around 16:00. I toggle 'work offline' to start reaching inbox zero, after which I answer questions from students, followed by actions that require a response through email. After that I basically go through my day based on whatever needs doing. At around 16:00 I tooggle back to 'work online' and watch emails being sent and new emails coming in. Between 16:00 and 17:00 I try to declutter the email again so as to end the day as close to inbox zero as possible.
+
+
+## Display emails in folder instead of display new emails
+
+A final thing that really helped me keep an overview of my inbox was to change the default behavior of the Microsoft Outlook desktop client in regards to how it displayes the number of emails in a folder. By default the client puts the number of unread emails in brackets next to the folder name. It is possible to change this so that the number of total items in a folder is displayed. 
+
+By seeing the total number of items I can instantly see how many emails need sorting or deleting in the inbox, how many assignments/papers/theses I have to work through in my 'grading' folder, whether there are unanswered questions by students in my 'course questions' folder, and how many e-mails require action. By seeing the total number it becomes impossible for me to forget that works needs to be done, and it also very satisfying to know that a folder is empty is actually empty; a solid proof to myself that I have been productivy.
+
+
+## Example: my workflow
+
+
+[WIP]
