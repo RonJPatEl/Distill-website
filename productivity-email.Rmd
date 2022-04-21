@@ -9,7 +9,10 @@ author:
     affiliation_url: https://ou.nl
     orcid_id: 0000-0002-4742-0163
 date: "`r Sys.Date()`"
-output: distill::distill_article
+output:
+  distill::distill_article:
+    toc: true
+    toc_depth: 2
 ---
 
 ```{r setup, include=FALSE}
@@ -17,31 +20,33 @@ knitr::opts_chunk$set(echo = FALSE)
 ```
 
 
-## The futility of inbox zero (but try anyway)
+## The futility of inbox zero (but why you should try anyway)
 
-The one thing that frustrated me in my journey to become more productive was the common advice of striving for inbox zero[1]. Inbox zero refers to the goal of having zero emails left in your inbox at the end of the day. I don't know if there is any email-heavy job where inbox zero is possible, but academia certainly isn't it.
+The one thing that frustrated me in my journey to become more productive was the common advice of striving for *inbox zero*[^1]. Inbox zero refers to the goal of having zero emails left in your inbox at the end of the day. I don't know if there is any email-heavy job where inbox zero is possible, but academia certainly isn't it.
 
 There certainly are days were I have managed to reach a zero or nigh zero inbox. But it only remains zero for a fleeting moment before replies to emails, new questions and assignments from students, or requests by colleagues start pouring in. At the end of the day my inbox was never zero and the very short time I got to enjoy the rush of reaching inbox zero became little more than a distant memory.
 
-It felt like failing daily, and constantly, and believing that inbox zero was something I should strive for crushed my motivation. I would be able to keep up for about a week before demands outside of the mailbox, such as teaching, or research would force me to deprioritise the inbox. In no time my inbox was an unstructured mess with many emails going unanswered or answered far too late. This would fuel a sense of embarassment, and force me to prioritise e-mail over other responsibilities again. My insistence on trying inbox zero as a strategy would end up having me taking turns in catching up with stuff I should have done but neglected.
+It felt like failing daily, and constantly, and believing that inbox zero was something I should strive for crushed my motivation. I would be able to keep up for about a week before demands outside of the mailbox, such as teaching, or research would force me to deprioritise the inbox. In no time my inbox was an unstructured mess with many emails going unanswered or answered far too late. This would fuel a sense of embarrassment, and force me to priorities e-mail over other responsibilities again. My insistence on trying inbox zero as a strategy would end up having me taking turns in catching up with stuff I should have done but neglected.
 
-But, emails need to be answered, and emails that require action need to be addressed. So I knew I had to find some way to make inbox zero, i.e. getting all things that need to get done actually done, work. In this article I would like to share the things that finally seem to have made me manage my email productively in a way that made me a more productive teacher and academic. The first step is to recognize that the only inbox that needs to be zero is the actual inbox, the folder that receives all incoming emails. I will discuss three folders that might have zero emails in them at a given time, but where it is perfectly acceptable (and productive!) to have them not be zero.
+But, emails need to be answered, and emails that require action need to be addressed. So I knew I had to find some way to make inbox zero, i.e. getting all things that need to get done actually done, work. In this article I would like to share the things that finally seem to have made me manage my email productively in a way that made me a more productive teacher and academic. The first step is to recognize that the only inbox that *needs* to be zero is the actual inbox, the folder that receives all incoming emails. I will discuss three folders that might have zero emails in them at a given time, but where it is perfectly acceptable (and productive!) to have them not be zero.
 
-The three most important folders and the 'touch it once principle'
+## The three most important folders and the 'touch it once principle'
+
 One universal constant piece of advice you find whenever you search for improving your email productivity is to only keep two folders in your inbox: an inbox and an 'action required' folder. If you work in a university these two folders will not make you more productive, and will set you up for failure.
 
 It took me some experimenting, but ultimately I found my sweet spot by moving e-mail that don't require an immediate action immediately into three folders:
 
-course questions
-to grade
-action required
-These three folders (in addition to my inbox) enabled me to adhere to what many productivity systems call the touch it once rule[2]. The rule is that when you go through your inbox you decide right away what you are going to do with each email you click on. Whenever you touch an email you make a decision right away to either answer or delete it (see the two-minute rule below), or to move it to one of the folders for followup and to clean it from the inbox. By going through your inbox and immediately deciding on the type of action required it becomes possible to at least reach inbox zero on the main inbox. In fact, reaching inbox zero becomes an almost trivial task if you persist with the *touch it once rule* in the first two or three days that you start with it, depending on how apocalyptic your inbox is at the moment. I'll explain what my three folders are and how they help me.
+1. course questions
+2. to grade
+3. action required
 
-Whenever students mail me questions about one the courses I'm teaching I move them to the folder labeled **course questions**. At first I left these questions in my inbox, because my thought-process was that these questions should be handled ASAP and don't take much time anyway. I was wrong. Completely wrong. Answering questions from students is important, but also a complete and utter time-sink. The result was that my inbox kept growing, and when it reached critical mass, usually at around 15 unanswered emails, I would forgo my touch it once rule entirely again. It took me a while to realise that even simple questions take more than two minutes to answer, and so I should regard answering all but the simplest of questions as a task I need to schedule.
+These three folders (in addition to my inbox) enabled me to adhere to what many productivity systems call the touch it once rule[^2]. The rule is that when you go through your inbox you decide right away what you are going to do with each email you click on. Whenever you touch an email you make a decision right away to either answer or delete it (see the two-minute rule below), or to move it to one of the folders for followup and to clean it from the inbox. By going through your inbox and immediately deciding on the type of action required it becomes possible to at least reach inbox zero on the main inbox. In fact, reaching inbox zero becomes an almost trivial task if you persist with the *touch it once rule* in the first two or three days that you start with it, depending on how apocalyptic your inbox is at the moment. I'll explain what my three folders are and how they help me.
 
-Your experience may deviate from mine here. I work at the Open Universiteit, which means that courses are very flexible and students hand in assignments and will ask questions throughout the year. Whenever courses that I am coordinator are active in a semester I will have much more communication with my students, but generally I get emails from students all year round. If you only teach sporadically and students reach out to TA's instead of you than maybe you won't get a lot of mileage out of a **course questions** folder, but for me this folder is key to partition of all students questions as a clustered activity that I need to do, without it visually interfering with other tasks that find their way into my inbox.
+Whenever students mail me questions about one the courses I'm teaching I move them to the folder labeled *course questions*. At first I left these questions in my inbox, because my thought-process was that these questions should be handled ASAP and don't take much time anyway. I was wrong. Completely wrong. Answering questions from students is important, but also a complete and utter time-sink. The result was that my inbox kept growing, and when it reached critical mass, usually at around 15 unanswered emails, I would forgo my touch it once rule entirely again. It took me a while to realise that even simple questions take more than two minutes to answer, and so I should regard answering all but the simplest of questions as a task I need to schedule.
 
-Assignments and papers that I need to grade or provide feedback on go into my **to grade** folder. Before moving it to this folder I use Microsoft Outlook's 'quick step' function to reply to the student that I've received the assignment and when they can expect feedback or a grade, and to send the task to my **to grade**-Trello Board where I can use due dates combined with calender view to plan the grading and feedback.
+Your experience may deviate from mine here. I work at the Open Universiteit, which means that courses are very flexible and students hand in assignments and will ask questions throughout the year. Whenever courses that I am coordinator are active in a semester I will have much more communication with my students, but generally I get emails from students all year round. If you only teach sporadically and students reach out to TA's instead of you than maybe you won't get a lot of mileage out of a *course questions* folder, but for me this folder is key to partition of all students questions as a clustered activity that I need to do, without it visually interfering with other tasks that find their way into my inbox.
+
+Assignments and papers that I need to grade or provide feedback on go into my *to grade* folder. Before moving it to this folder I use Microsoft Outlook's 'quick step' function to reply to the student that I've received the assignment and when they can expect feedback or a grade, and to send the task to my *to grade*-Trello Board where I can use due dates combined with calender view to plan the grading and feedback.
 
 
 
@@ -97,7 +102,8 @@ By seeing the total number of items I can instantly see how many emails need sor
 
 [WIP]
 
-## footnotes
+
+
 
 [^1]: https://blog.superhuman.com/inbox-zero-method/
 [^2]: https://www.cnbc.com/2018/06/21/touch-it-once-method-for-tasks-can-boost-productivity.html#:~:text=One%20simple%20solution%20is%20to,steps%20to%20move%20it%20along.

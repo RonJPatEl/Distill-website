@@ -3,7 +3,7 @@ title: "Dr. Ron Pat-El"
 description: |
   Assistant Professor Methods and Statistics
 site: distill::distill_website
-image: "Pasfoto.png"
+image: "image001.jpg"
 links:
   - label: '`r fontawesome::fa("linkedin", fill = "currentColor")`'
     url: "https://www.linkedin.com/in/ron-pat-el-010b532a/"
